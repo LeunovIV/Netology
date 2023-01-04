@@ -67,6 +67,7 @@ mv 'Leunov - Lecture № 2.2' 'Leunov_Lecture_№_2.2_'"$(date +%Y-%m-%d)" && to
 Сделайте скриншот, вставьте в документ с ДЗ
 
 ### Ответ:
+![image](https://user-images.githubusercontent.com/121933872/210575563-a0c7c2e8-6a10-4c7e-80c1-19bf0b2cf278.png)
 
 
 $ sudo dnf makecache
