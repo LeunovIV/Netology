@@ -57,7 +57,9 @@
 Пришлите получившуюся команду.
 
 ### Ответ:
+![image](https://user-images.githubusercontent.com/121933872/210572377-dde2f658-5034-4780-9ccd-b26271e15628.png)
 
+mv 'Leunov - Lecture № 2.2' 'Leunov_Lecture_№_2.2_'"$(date +%Y-%m-%d)" && touch ~/Leunov_Lecture_№_2.2_"$(date +%Y-%m-%d)"/concept.1 && uname -a >> ~/Leunov_Lecture_№_2.2_"$(date +%Y-%m-%d)"/concept.1 && echo Ivan Leunov >> ~/Leunov_Lecture_№_2.2_"$(date +%Y-%m-%d)"/concept.1 && echo Lecture № "2.2 Основы работы с командной строкой"  >> ~/Leunov_Lecture_№_2.2_"$(date +%Y-%m-%d)"/concept.1
 
 ## Задание 5:
 Установите обновления пакетов.
