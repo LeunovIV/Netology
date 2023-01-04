@@ -21,8 +21,7 @@
 
 ### Ответ:
 
-
-
+![image](https://user-images.githubusercontent.com/121933872/210550273-92773587-9924-4aa8-ab29-5b5e9410b2b5.png)
 
 
 ## Задание 2:
