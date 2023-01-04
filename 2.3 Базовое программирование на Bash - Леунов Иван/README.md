@@ -23,13 +23,15 @@ done
 
 ### Ответ:
 
+![image](https://user-images.githubusercontent.com/121933872/210620771-6a15f22e-e8b0-4c2f-921a-ed0af4b868a6.png)
+
 #!/bin/bash
 
 show()
 
 {
 
-time=$(date +%H:%M)
+time=$(date +%H:%M:%S)
 
 echo "Curent time: $time"
 
