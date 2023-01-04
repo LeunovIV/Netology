@@ -9,7 +9,7 @@
 
 for (( i=3; i <= 100; i=i+3 ))
 do
-echo nano$i
+echo $i
 done
 
 
