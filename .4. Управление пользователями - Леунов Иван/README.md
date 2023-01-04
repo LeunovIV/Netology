@@ -9,7 +9,7 @@
 
 ### Ответ: 
 
-![image](https://user-images.githubusercontent.com/121933872/210629342-fae6e589-7936-44e7-b072-1f134b92a542.png)
+![image](https://user-images.githubusercontent.com/121933872/210630049-021c4a6a-2209-4031-a03c-615815c4d365.png)
 
 
 ## Задание 2.
