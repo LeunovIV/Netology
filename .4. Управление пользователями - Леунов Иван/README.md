@@ -24,7 +24,15 @@
 
 ### Ответ: 
 
-![image](https://user-images.githubusercontent.com/121933872/210807873-6e396741-3461-4ebc-a307-8458c130eb89.png)
+mkdir /tmp/test
+
+cd /tmp
+
+sudo chown student2 /tmp/test
+
+sudo chmod 744 /tmp/test
+
+![image](https://user-images.githubusercontent.com/121933872/211152758-b6eb09a2-01af-4b2b-a9ac-90528ca7a0de.png)
 
 
 ## Задание 3.
