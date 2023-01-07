@@ -11,6 +11,10 @@
 
 ![image](https://user-images.githubusercontent.com/121933872/210630049-021c4a6a-2209-4031-a03c-615815c4d365.png)
 
+[LIV@localhost ~]$ sudo useradd student1 -s /bin/bash
+
+[LIV@localhost ~]$ sudo useradd student2
+
 
 ## Задание 2.
 Создайте в общем каталоге (например, /tmp) директорию и назначьте для неё полный доступ со стороны группы student2 и доступ на чтение всем остальным
