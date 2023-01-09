@@ -61,7 +61,7 @@ less /etc/shadow – файл с содержанием информации о 
 
 ### Ответ: 
 
-![image](https://user-images.githubusercontent.com/121933872/210816593-f5161c55-f860-4154-975a-d7e000d62ae2.png)
+![image](https://user-images.githubusercontent.com/121933872/211256034-82df7d41-4aa8-473c-b7e3-ac1a268a33a1.png)
 
 
 # Дополнительные задания (со звездочкой)*
