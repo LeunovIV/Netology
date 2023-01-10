@@ -59,9 +59,9 @@
 
 ### Ответ:
 
+![image](https://user-images.githubusercontent.com/121933872/211546962-f551336e-52ff-4281-8dc1-f70328d95c5c.png)
 
-
-![image](https://user-images.githubusercontent.com/121933872/211545603-b30630d2-c36f-482d-b9d5-4b71e6a89751.png)
+![image](https://user-images.githubusercontent.com/121933872/211546515-ced4272f-c0b5-489d-873c-53b32640bf19.png)
 
 
 # Дополнительные задания (со звездочкой)*
