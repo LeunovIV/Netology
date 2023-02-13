@@ -38,6 +38,11 @@
 
 ### Ответ: 
 
+![image](https://user-images.githubusercontent.com/121933872/218473206-f7f1aeb8-08f3-48fc-8903-17aa6afde350.png)
+
+![image](https://user-images.githubusercontent.com/121933872/218473414-20bf2da6-bec9-48e0-a1d9-05f0d449261a.png)
+
+
 
 
 # Дополнительные задания (со звездочкой)*
