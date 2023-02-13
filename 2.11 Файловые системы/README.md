@@ -70,6 +70,9 @@
 
 ### Ответ: 
 
+![image](https://user-images.githubusercontent.com/121933872/218520308-e24b0a15-fd52-4b2c-98b0-1512c334f6fe.png)
+
+
 
 
 # Дополнительные задания (со звездочкой)*
