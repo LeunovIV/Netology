@@ -50,3 +50,10 @@ systemctl start vsftpd
 
 sudo yum install mdadm
 
+sudo mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb1 /dev/sdc1
+
+![image](https://user-images.githubusercontent.com/121933872/218644813-ba7d124c-8101-4b01-9bc2-9f2fb8a410a2.png)
+
+
+
+
