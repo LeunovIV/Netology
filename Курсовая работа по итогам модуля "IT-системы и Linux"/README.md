@@ -46,3 +46,7 @@ systemctl start vsftpd
 
 ![image](https://user-images.githubusercontent.com/121933872/218640343-f7357f5e-9032-43fd-a2b9-1173c8d83b3a.png)
 
+Добавил 2 диска по 20ГБ, чтобы создать RAID 1
+
+sudo yum install mdadm
+
