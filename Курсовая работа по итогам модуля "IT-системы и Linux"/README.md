@@ -22,7 +22,7 @@ HTTP.
 конфигурации RAID.
 
 
-Решение:
+### Решение:
 
 ![image](https://user-images.githubusercontent.com/121933872/218639712-9f041477-3201-4df0-a592-d1aa9bb98467.png)
 
