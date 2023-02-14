@@ -24,5 +24,25 @@ HTTP.
 
 ### Решение:
 
+
+
 ![image](https://user-images.githubusercontent.com/121933872/218639712-9f041477-3201-4df0-a592-d1aa9bb98467.png)
+
+
+yum install nginx
+
+systemctl enable nginx
+
+systemctl start nginx
+
+![image](https://user-images.githubusercontent.com/121933872/218640235-c0bec98a-81fb-403f-aef6-700f1a1eccf1.png)
+
+
+yum install vsftpd
+
+systemctl enable vsftpd
+
+systemctl start vsftpd
+
+![image](https://user-images.githubusercontent.com/121933872/218640343-f7357f5e-9032-43fd-a2b9-1173c8d83b3a.png)
 
