@@ -25,6 +25,25 @@
 
 ### Ответ: 
 
+1.5 
+
+![image](https://user-images.githubusercontent.com/121933872/222422779-06f07af0-c6e8-4906-a74e-ee189c9dc1ed.png)
+
+1.6 
+
+![image](https://user-images.githubusercontent.com/121933872/222423069-28ba04c5-31d0-4a02-a63f-70caaf279e32.png)
+
+1.7 
+
+![image](https://user-images.githubusercontent.com/121933872/222423467-ae2d0b0b-6e1f-4131-afa6-33c69ebf2ae1.png)
+
+1.8 
+
+![image](https://user-images.githubusercontent.com/121933872/222423641-aec6b736-8f71-4d07-902c-9ec65a8027d4.png)
+
+1.9 
+
+![image](https://user-images.githubusercontent.com/121933872/222423827-62e0dae0-7277-40e7-9ff4-cdb4c6893891.png)
 
 
 *
