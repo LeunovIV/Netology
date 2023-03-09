@@ -24,3 +24,7 @@ SNMP.
 
 1. Генерируем ключ
 
+```
+1 - openssl genrsa -out ca.key 2048
+```
+
