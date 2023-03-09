@@ -19,14 +19,11 @@
 
 ### Ответ: 
 
-1) 404 - Not Found;
-
-2) 301 - Moved Permanently;
-3) 410 - Gone;
-
-4) 401 - Unauthorized;
-
-5) 429 - Too Many Requests
+1) 404 - Not Found (не найдено);
+2) 301 - Moved Permanently (Перемещено навсегда);
+3) 410 - Gone (был, но сейчас недоступен);
+4) 401 - Unauthorized (недоступен без авторизации);
+5) 429 - Too Many Requests (слишком много запросов)
 
 
 
