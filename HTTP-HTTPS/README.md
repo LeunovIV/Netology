@@ -80,6 +80,7 @@ http {
 
 ### Ответ: 
 
+![image](https://user-images.githubusercontent.com/121933872/224021024-9c137274-43af-4843-9e0f-52b03de58db0.png)
 
 
 
