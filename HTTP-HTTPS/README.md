@@ -64,6 +64,7 @@ http {
 
 ### Ответ: 
 
+![image](https://user-images.githubusercontent.com/121933872/224019430-0d7f897c-186b-4796-bf5c-e19386ae3082.png)
 
 
 
