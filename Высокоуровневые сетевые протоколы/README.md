@@ -42,6 +42,7 @@
 ```
 openssl genrsa -out ca.key 2048
 ```
+Ответ:
 
 ![image](https://user-images.githubusercontent.com/121933872/226341743-694cb164-83fb-4fc0-9f8c-ecb69d482216.png)
 
@@ -51,6 +52,7 @@ openssl genrsa -out ca.key 2048
 ```
 openssl req -x509 -new -nodes -key ca.key -sha256 -days 720 -out ca.pem
 ```
+Ответ:
 
 ![image](https://user-images.githubusercontent.com/121933872/226342451-3474c41c-ad02-4dee-ab4e-2706ce733ef8.png)
 
@@ -60,6 +62,8 @@ openssl req -x509 -new -nodes -key ca.key -sha256 -days 720 -out ca.pem
 ```
 openssl x509 -in ca.pem -inform PEM -out ca.crt
 ```
+Ответ:
+
 ![image](https://user-images.githubusercontent.com/121933872/226342609-60540885-b5d6-4b27-b903-fedcb32f07b1.png)
 
 4. Далее установим сертификат в систему. Ниже пример для Ubuntu/Debian систем
@@ -67,6 +71,9 @@ openssl x509 -in ca.pem -inform PEM -out ca.crt
 ```
 sudo cp ca.crt /usr/local/share/ca-certificates/myca.crt && sudo update-ca-certificates
 ```
+Ответ:
+
+![image](https://user-images.githubusercontent.com/121933872/226347169-5f75ac0d-e6d8-4123-8777-42e0fda4759d.png)
 
 5. Приступим к выпуску самого сертификата:
 
@@ -75,6 +82,9 @@ sudo cp ca.crt /usr/local/share/ca-certificates/myca.crt && sudo update-ca-certi
 ```
 openssl genrsa -out certificate.key 2048
 ```
+Ответ:
+
+![image](https://user-images.githubusercontent.com/121933872/226347447-c0ce83f2-c541-4da8-aefc-47b82eed1ecc.png)
 
 5.2. На основе ключа создаем CSR
 
@@ -83,12 +93,18 @@ openssl genrsa -out certificate.key 2048
 ```
 openssl req -new -key certificate.key -out certificate.csr
 ```
+Ответ:
+
+![image](https://user-images.githubusercontent.com/121933872/226348048-a138bcf1-ec76-4ed4-8867-d851420f29fa.png)
 
 5.3. Подписываем CSR нашим корневым сертификатом. Тем самым создаем конечный сертификат.
 
 ```
 openssl x509 -req -in certificate.csr -CA ca.pem -CAkey ca.key -CAcreateserial -out certificate.crt -days 360 -sha256
 ```
+Ответ:
+
+![image](https://user-images.githubusercontent.com/121933872/226348299-a238ffb0-9374-4555-bf32-aa1c9038e52c.png)
 
 6. Проверяем валидность сертификата
 
