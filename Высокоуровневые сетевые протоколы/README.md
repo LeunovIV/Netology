@@ -40,25 +40,32 @@
 1. Генерируем ключ
 
 ```
-1 - openssl genrsa -out ca.key 2048
+openssl genrsa -out ca.key 2048
 ```
+
+![image](https://user-images.githubusercontent.com/121933872/226341743-694cb164-83fb-4fc0-9f8c-ecb69d482216.png)
+
 
 2. Генерируем корневой сертификат. Поля в сертификате указываем любые.
 
 ```
-1 - openssl req -x509 -new -nodes -key ca.key -sha256 -days 720 -out ca.pem
+openssl req -x509 -new -nodes -key ca.key -sha256 -days 720 -out ca.pem
 ```
+
+![image](https://user-images.githubusercontent.com/121933872/226342451-3474c41c-ad02-4dee-ab4e-2706ce733ef8.png)
+
 
 3. Сразу же сделаем сертификат в форме crt
 
 ```
-1 - openssl x509 -in ca.pem -inform PEM -out ca.crt
+openssl x509 -in ca.pem -inform PEM -out ca.crt
 ```
+![image](https://user-images.githubusercontent.com/121933872/226342609-60540885-b5d6-4b27-b903-fedcb32f07b1.png)
 
 4. Далее установим сертификат в систему. Ниже пример для Ubuntu/Debian систем
 
 ```
-1 - sudo cp ca.crt /usr/local/share/ca-certificates/myca.crt && sudo update-ca-certificates
+sudo cp ca.crt /usr/local/share/ca-certificates/myca.crt && sudo update-ca-certificates
 ```
 
 5. Приступим к выпуску самого сертификата:
@@ -66,7 +73,7 @@
 5.1. Генерируем ключи
 
 ```
-1 - openssl genrsa -out certificate.key 2048
+openssl genrsa -out certificate.key 2048
 ```
 
 5.2. На основе ключа создаем CSR
@@ -74,13 +81,13 @@
 Обратите внимание, что subject конечного сертификата не должен совпадать с subject корневого. Хотя бы в одном поле нужно указать отличающееся значение, например в common Name или email. В противном случае конечный сертификат не будет верифицироваться, поскольку будет считаться самоподписным.
 
 ```
-1 - openssl req -new -key certificate.key -out certificate.csr
+openssl req -new -key certificate.key -out certificate.csr
 ```
 
 5.3. Подписываем CSR нашим корневым сертификатом. Тем самым создаем конечный сертификат.
 
 ```
-1 - openssl x509 -req -in certificate.csr -CA ca.pem -CAkey ca.key -CAcreateserial -out certificate.crt -days 360 -sha256
+openssl x509 -req -in certificate.csr -CA ca.pem -CAkey ca.key -CAcreateserial -out certificate.crt -days 360 -sha256
 ```
 
 6. Проверяем валидность сертификата
@@ -88,7 +95,7 @@
 Эта проверка должна вернуть OK. Если вы видите failed, значит, где-то допущена ошибка.
 
 ```
-1 - openssl verify certificate.crt
+openssl verify certificate.crt
 ```
 
 В качестве ответа приложите снимки экрана с выводом информации о сертификатах и результатом верификации:
