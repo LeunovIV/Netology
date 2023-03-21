@@ -125,6 +125,7 @@ openssl verify certificate.crt
 
 #### Ответ: 
 
+![image](https://user-images.githubusercontent.com/121933872/226521240-eaeffea8-c494-4d8c-8f66-634fc513b5e8.png)
 
 
 
